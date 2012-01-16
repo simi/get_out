@@ -7,9 +7,11 @@ Gem::Specification.new do |s|
   s.version     = GetOut::VERSION
   s.authors     = ["Josef Šimánek"]
   s.email       = ["retro@ballgag.cz"]
-  s.homepage    = "https://github.com/simi/get_out"
+  s.homepage    = "https://simi.github.com/get_out"
   s.summary     = %q{Simple get_out IRC bot}
   s.description = %q{GET OUT, NOW!}
+
+  s.has_rdoc = false
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
