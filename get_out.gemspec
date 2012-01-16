@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = GetOut::VERSION
   s.authors     = ["Josef Šimánek"]
   s.email       = ["retro@ballgag.cz"]
-  s.homepage    = "https://simi.github.com/get_out"
+  s.homepage    = "http://simi.github.com/get_out"
   s.summary     = %q{Simple get_out IRC bot}
   s.description = %q{GET OUT, NOW!}
 
